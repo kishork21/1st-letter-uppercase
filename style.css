@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(bisque, pink);
+    height: 100vh;
+}
+
+.box {
+    height: 400px;
+    width: 300px;
+    border: 1px double grey;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+#inputField {
+    overflow: hidden;
+    height: 25px;
+    font-size: 20px;
+    width: 97%;
+    border: none;
+    margin: 30px 10px 0 0;
+    outline: none;
+
+}
+
+#inputField:hover {
+    border: 1px dotted gray;
+}
+
+#btn-1,
+#btn-2 {
+    height: 35px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px dotted gray;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background: grey;
+}
+
+#btn-1:hover,
+#btn-2:hover {
+    background-color: white;
+    color: gray;
+}
+
+#showData-1,
+#showData-2 {
+    margin: 20px 30px;
+    background-color: rgb(234, 219, 245);
+    height: 15px;
+    padding: 5px;
+}
