@@ -10,7 +10,8 @@ function upperCase() {
     document.getElementById('showData-1').innerHTML = convertValue;
 
     if(value1==""){
-        confirm("enter the text")
+        confirm("enter the text");
+        console.log(value1);
     }
     
 
